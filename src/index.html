@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="payment-container">
+        <div class="total__heading">total</div>
+        <div class="total">
+          <div class="total__info">$698</div>
+        </div>
+
+        <div class="detail">
+          <div class="detail__heading">detail</div>
+          <div class="detail__info">
+            <div class="product__one">
+              <span class="product__heading">Product One</span>
+              <span class="product__price">$599</span>
+            </div>
+            <div class="product__two">
+              <span class="product__heading">Product Two</span>
+              <span class="product__price">$99</span>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button class="button__text">pay now</button>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="form__container">
+          <form action="#" method="post">
+            <label for="full_name">Name</label><br />
+            <input
+              type="text"
+              id="full_name"
+              name="full_name"
+              value="John"
+            /><br />
+            <label for="card_number">Card Number</label><br />
+            <input
+              type="number"
+              id="card_number"
+              name="card_number"
+              value="1111 1111 1111 1111"
+            /><br />
+            <label for="expiration_date">Expiration Date</label><br />
+            <input
+              type="number"
+              id="expiration_date"
+              name="expiration_date"
+              value="MM    YYYY"
+            /><br />
+            <label for="cvv">Cvv</label><br />
+            <input type="number" id="cvv" name="cvv" value="123" /><br />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
